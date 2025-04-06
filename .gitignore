@@ -1,0 +1,40 @@
+# --- BACKEND ---
+
+# Virtual environment
+Backend/.venv/
+Backend/.env
+Backend/.env.*
+
+# Python bytecode
+Backend/__pycache__/
+Backend/*.pyc
+
+# Ignore voice recordings
+Backend/*.mp4
+
+# --- FRONTEND ---
+
+# Frontend build & dependency folders (inside nested Frontend/frontend)
+Frontend/frontend/node_modules/
+Frontend/frontend/dist/
+Frontend/frontend/dist-ssr
+Frontend/frontend/*.local
+
+# Logs
+Frontend/frontend/logs
+Frontend/frontend/*.log
+Frontend/frontend/npm-debug.log*
+Frontend/frontend/yarn-debug.log*
+Frontend/frontend/yarn-error.log*
+Frontend/frontend/pnpm-debug.log*
+Frontend/frontend/lerna-debug.log*
+
+# Editor/IDE configs
+Frontend/frontend/.vscode/
+Frontend/frontend/.idea/
+Frontend/frontend/.DS_Store
+Frontend/frontend/*.suo
+Frontend/frontend/*.ntvs*
+Frontend/frontend/*.njsproj
+Frontend/frontend/*.sln
+Frontend/frontend/*.sw?

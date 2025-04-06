@@ -1,0 +1,15 @@
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Gitignore the `.env` file which contains the API key and sensitive information
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# To exclude .mp4 voice recording files
+*.mp4
+

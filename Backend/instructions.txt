@@ -1,0 +1,10 @@
+Step 1: Setting Up the Virtual Environment: python -m venv .venv
+Step 2: Activate Virtual Environment: .\venv\Scripts\activate
+Step 3: Upgrade pip: pip install --upgrade pip
+Step 4: Retrieving all the dependencies: pip install -r requirements.txt
+Step 5: Install FFmpeg (required by Whisper for audio processing)
+Step 6: Running the Server: uvicorn main:app --reload
+Step 7: Access Swagger UI (for testing the API): Open the browser and go to: http://127.0.0.1:8000/docs
+Step 8: Install FFmpeg via : https://www.gyan.dev/ffmpeg/builds/
+Step 9: Add FFmpeg to the Windows PATH : C:\Users\EliteBook\Downloads\ffmpeg-2025-03-31-git-35c091f4b7-essentials_build\ffmpeg-2025-03-31-git-35c091f4b7-essentials_build\bin
+Step 10: 
